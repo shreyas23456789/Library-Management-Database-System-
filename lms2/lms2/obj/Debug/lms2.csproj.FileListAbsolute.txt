@@ -1,0 +1,16 @@
+D:\lms2\lms2\lms2\bin\Debug\lms2.exe.config
+D:\lms2\lms2\lms2\bin\Debug\lms2.exe
+D:\lms2\lms2\lms2\bin\Debug\lms2.pdb
+D:\lms2\lms2\lms2\obj\Debug\lms2.csprojAssemblyReference.cache
+D:\lms2\lms2\lms2\obj\Debug\lms2.Form1.resources
+D:\lms2\lms2\lms2\obj\Debug\lms2.Properties.Resources.resources
+D:\lms2\lms2\lms2\obj\Debug\lms2.csproj.GenerateResource.cache
+D:\lms2\lms2\lms2\obj\Debug\lms2.csproj.CoreCompileInputs.cache
+D:\lms2\lms2\lms2\obj\Debug\lms2.exe
+D:\lms2\lms2\lms2\obj\Debug\lms2.pdb
+D:\lms2\lms2\lms2\obj\Debug\lms2.LoggedIn.resources
+D:\lms2\lms2\lms2\obj\Debug\lms2.Borrow.resources
+D:\lms2\lms2\lms2\obj\Debug\lms2.Return.resources
+D:\lms2\lms2\lms2\obj\Debug\lms2.AddStudent.resources
+D:\lms2\lms2\lms2\obj\Debug\lms2.Publish.resources
+D:\lms2\lms2\lms2\obj\Debug\lms2.Search.resources
