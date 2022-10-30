@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,7 +25,18 @@ namespace lms2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\shrey\OneDrive\Documents\lms2database.mdf;Integrated Security=True;Connect Timeout=30";
             string password = textBox2.Text;
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandText = "select * from Employee where Employee_id = '"+ textBox1.Text+ "' and password = '"+textBox2.Text+"' ";
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+
+
+
             if (password == "pass")
             {
                 LoggedIn login = new LoggedIn();
@@ -39,6 +51,11 @@ namespace lms2
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             textBox2.PasswordChar = '*';
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
